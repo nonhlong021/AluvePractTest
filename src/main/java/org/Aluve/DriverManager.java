@@ -1,4 +1,12 @@
 package org.Aluve;
 
-public class Pages {
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DriverManager {
+
+    public void setUp() {
+        WebDriverManager.chromedriver().setup();
+        ChromeDriver driver = new ChromeDriver();
+    }
 }

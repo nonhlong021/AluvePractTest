@@ -1,4 +1,4 @@
-package org.nedbank.cucumber;
+package cucumber;
 
 public class RunCucumberIT {
 }
